@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://kkilmetis8.github.io/home//sitemap.xml
