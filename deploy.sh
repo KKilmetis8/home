@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 bundle exec jekyll build
-cp -r _site/* repo/home
-cd repo/home
+cp -r _site/* home
+cd home
 touch .nojekyll
 echo "My [website](https://kkilmetis8.github.io/home/)!" > README.md
 git add .
