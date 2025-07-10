@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-bundle exec jekyll build
+bundle exec jekyll serve
 cp -r _site/* home
 cd home
 touch .nojekyll
